@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const questionController = require("../../controllers/questionController");
-
+const answersController = require("../../controllers/answersController");
 // Matches with "/api/books"
 router.route("/question")
   .get(questionController.findAll)
